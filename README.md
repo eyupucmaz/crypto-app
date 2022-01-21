@@ -1,26 +1,36 @@
 # CRYPTOCURRENCY STATS APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Techs
+- React.js
+- Context API
+- Axios
+- React Icons
+## 📦 Installation
 
-## Available Scripts
+### 📝 Clone the project
 
-In the project directory, you can run:
+```bash
+git clone https://github.com/eyupucmaz/crypto-app.git
+```
+### ✅ Install Dependencies
+With yarn:
+```bash
+cd ./crypto-app && yarn
+```
+With npm:
+```bash
+cd ./crypto-app && npm install
+```
+### 🏃‍♂️ Run the project
+With yarn:
+```bash
+yarn start
+```
+With npm:
+```
+npm run start
+```
+## 🔴 Demo
+You can visit the demo from: [Crypto Coin Stats](https://crypto-app-swart.vercel.app/)
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You're right! Made with ❤️ 
