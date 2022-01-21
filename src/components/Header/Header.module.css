@@ -1,0 +1,81 @@
+.container {
+	width: 100vw;
+	background-color: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container__title {
+	color: #fefefe;
+	font-size: 5rem;
+	text-align: center;
+	margin: 0;
+}
+
+.search {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.search__input {
+	outline: none;
+	font-size: 2.5rem;
+	width: 100%;
+	max-width: 50rem;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	border: 2px solid #272727;
+}
+nav {
+	align-self: flex-start;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.currency {
+	font-size: 1.5rem;
+	background: #272727;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 1rem;
+	align-self: flex-start;
+	width: 9rem;
+}
+
+.github {
+	font-size: 3rem;
+	color: #fefefe;
+	margin-left: 1rem;
+}
+
+.github:hover {
+	animation: shake 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes shake {
+	10%,
+	90% {
+		transform: rotate(10deg);
+	}
+	20%,
+	80% {
+		transform: rotate(-20deg);
+	}
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+	40%,
+	60% {
+		transform: rotate(-20deg);
+	}
+}
