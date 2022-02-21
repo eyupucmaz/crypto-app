@@ -1,10 +1,9 @@
+import { useCoin } from "../../Context/CoinContext";
 import styles from "./Coin.module.css";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import { useContext } from "react";
-import { CoinContext } from "../../Context/CoinContext";
 
 const Coin = ({ data }) => {
-	const { currency } = useContext(CoinContext);
+	const { currency } = useCoin();
 
 	return (
 		<>
