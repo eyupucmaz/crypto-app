@@ -1,10 +1,9 @@
-import { useContext } from "react";
-import { CoinContext } from "../../Context/CoinContext";
+import { useCoin } from "../../Context/CoinContext";
 import styles from "./Header.module.css";
 import { VscGithubAlt } from "react-icons/vsc";
 
 const Header = () => {
-	const { searchInput, setSearchInput, setCurrency } = useContext(CoinContext);
+	const { searchInput, setSearchInput, setCurrency } = useCoin();
 
 	const handleChange = (event) => {
 		setSearchInput(event.target.value);
